@@ -41,7 +41,7 @@ function ThirdPage() {
     ]
 
     return (
-        <section className="my-2">
+        <section id="third" className="my-2 w-full lg:w-5/12 lg:m-auto">
             {
                 cards && cards.map((item, index) => {
                     return (
