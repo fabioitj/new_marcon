@@ -17,7 +17,7 @@ function FourthPage({...props}) {
                             <img 
                                 key={index} 
                                 src={image}
-                                className='p-4'
+                                className='p-4 w-11/12'
                             />
                         )
                     })
